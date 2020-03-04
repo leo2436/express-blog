@@ -5,13 +5,16 @@
 
 项目截图
 ---
-首页页面：
+首页：
+<img src=http://chuantu.xyz/t6/722/1583329513x992245926.png />
+
+实时的markdown编辑：
+<img src=http://chuantu.xyz/t6/722/1583329320x977013264.png />
 
 文章详情页面：
+<img src=http://chuantu.xyz/t6/722/1583329732x992245926.png />
 
-简历页面：
-
-线上预览
+博客地址：
 ---
 www.leoandjohn.cn
 
