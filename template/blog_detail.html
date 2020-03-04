@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>博客首页</title>
+        <link rel="stylesheet" href="css/blogDetail.css">
+        <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="jumbotron text-center" style="margin-bottom:0">
+            <img class="fm" src="images/fm.png" alt="">
+        </div>
+        <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            <a class="navbar-brand" href="">Leo的博客</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navigation nav navbar-nav">
+                <li class=""><a href="/">首页</a></li>
+                <li><a href="">关于</a></li>
+                <li><a href="">其他</a></li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+        <div class="blog"></div>
+        <div class="comment">
+            <h2 class="comments-header">留言（2条）</h2>
+            <div class="sub-comments"></div>
+        </div>
+        <div class='new-comment'>
+            <input class='comment-blog-id' type=hidden value="${id}">
+            <div class="comment-parts">
+                <label>
+                    您的大名
+                </label>
+                <input class='comment-author form-control' value="">
+            </div>
+            <div class="comment-parts"> 
+                <label>
+                    您的留言
+                </label>    
+                <textarea rows="5" class='comment-input form-control' value=""></textarea>
+            </div>
+            <div class="comment-parts">
+                <button class='comment-submit btn btn-info btnlg'>添加评论</button>
+            </div>
+        </div>
+        <div class="jumbotron text-center" style="margin-bottom:0">
+            <a href="">Github</a>
+        </br>
+            <a href="">码云</a>
+        </div>
+        <script src="js/blogDetail.js"></script>
+        <script src="//code.jquery.com/jquery.js"></script>
+        <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>

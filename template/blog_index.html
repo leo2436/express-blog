@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>博客首页</title>
+        <link rel="stylesheet" href="css/blog.css">
+        <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="jumbotron text-center" style="margin-bottom:0">
+            <img class="fm" src="images/fm.png" alt="">
+          </div>
+          <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="">Leo的博客</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navigation nav navbar-nav">
+                  <li class=""><a href="/">首页</a></li>
+                  <li><a href="">关于</a></li>
+                  <li><a href="">其他</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="contents container">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="intro">
+                    <h2>关于我</h2>
+                    <div class="side-photo">
+                    <a href=""><img class="photo" src="images/tx.png" alt="头像"></a>
+                    </div>
+                    <p id="motto">Stay hunger, stay foolish</p>
+                </div>
+                <div class="labels">
+                    <a href=""><span class="label label-default">JavaScript</span></br></a>
+                    <a href=""><span class="label label-primary">HTML</span></a>
+                    <a href=""><span class="label label-success">CSS</span></a>
+                    <a href=""><span class="label label-info">Vue</span></br></a>
+                    <a href=""><span class="label label-warning">React</span></a>
+                    <a href=""><span class="label label-danger">jquery</span></a>
+                </div>
+                <div class="friends">
+                    <h3>友链</h3>
+                    <ul class="nav nav-pills nav-stacked">
+                    <li class="active"><a href="#">友链1</a></li>
+                    <li><a href="#">友链2</a></li>
+                    <li><a href="#">友链3</a></li>
+                </ul>
+                </div>
+                <hr class="hidden-sm hidden-md hidden-lg">
+              </div>
+              <div class="col-sm-8">
+                  <div class="blog-cell">
+                    <!-- <h2>标题</h2>
+                    <h5>副标题</h5>
+                    <div class="fakeimg">图像</div>
+                    <p>一些文本..</p> -->
+                  </div>
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="blogs"></div>
+          <div class="jumbotron text-center" style="margin-bottom:0">
+            <p>底部内容</p>
+          </div>
+        <script src="js/blogIndex.js"></script>
+        <script src="//code.jquery.com/jquery.js"></script>
+        <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>

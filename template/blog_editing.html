@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/blogEditing.css">
+  <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.bootcss.com/remarkable/2.0.0/remarkable.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
+  <title>博客管理</title>
+</head>
+<body>
+  <div class="jumbotron text-center" style="margin-bottom:0">
+      <img class="fm" src="images/fm.png" alt="">
+  </div>
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+      <div class="navbar-header">
+      <a class="navbar-brand" href="">Leo的博客</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="navigation nav navbar-nav">
+          <li class=""><a href="/">首页</a></li>
+          <li><a href="">关于</a></li>
+          <li><a href="">其他</a></li>
+      </ul>
+      </div>
+  </div>
+  </nav>
+  <div class="blog-new">
+      <div class="blog-title">
+        <label>
+            博文标题
+        </label>
+            <input id='id-input-title' class="form-control input-xxlarge" type="text" placeholder="请输入标题">
+      </div>
+      <div class="blog-author">
+        <label>
+            博文作者
+        </label>
+            <input id='id-input-author' class="form-control" type="text" placeholder="请输入你的姓名">
+      </div>
+      <div class="blog-content">
+        <label>
+            博文内容
+        </label>
+            <textarea id='id-input-content' class="form-control" rows="10" type="text" placeholder="请输入文章内容..."></textarea>
+      </div>
+      <!-- <label>
+          主人密码
+          <input id='id-input-mima' type="text" value="">
+      </label> -->
+      <div id="id-content-preview"></div>
+      <div class="blog-submit">
+        <button id='id-button-submit' class="btn btn-info active">发表</button>
+      </div>
+      <div class="blogs"></div>
+  </div>
+  <div class="jumbotron text-center" style="margin-bottom:0">
+    <p>底部内容</p>
+  </div>  
+  <script type="module" src="js/blogEdit.js"></script>
+  <script src="//code.jquery.com/jquery.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+</body>
+</html>
